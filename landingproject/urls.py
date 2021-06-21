@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from landing import views
-from django.contrib.staticfiles.urls import static
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
