@@ -1,0 +1,76 @@
+body{
+   background: url(https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80) no-repeat center center fixed;
+   background-size: cover;
+}
+
+.tiktok {
+ display: block;
+ margin: auto;
+ border: 2px solid white;
+ padding: 10px;
+ margin-right: 1070px;
+}
+.instagram {
+ display: block;
+ margin: auto;
+ border: 2px solid white;
+ padding: 10px;
+ margin-right: 890px;
+}
+.facebook {
+ display: block;
+ margin: auto;
+ border: 2px solid white;
+ padding: 10px;
+ margin-right: 690px;
+}
+
+}
+.header-text {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.header-link1{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+
+.header-link2{
+  height: 40%;
+  width: 80%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+
+.header-link3{
+  height: 40%;
+  width: 120%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+
+h1 {
+color: white;
+}
