@@ -23,7 +23,7 @@ h1 {
 .social-menu ul li .fab {
     color: #000000;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 75px;
     transition: .5s;
 }
 .social-menu ul li .fab:hover {
@@ -46,7 +46,7 @@ h1 {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
 .social-menu ul li:nth-child(1) a:hover {
-    background-color: #cd486b;
+    background-color: #FF3371;
 }
 .social-menu ul li:nth-child(2) a:hover {
     background-color: black;
