@@ -5,10 +5,11 @@ body{
 
 h1 {
   text-align: center;
+  color: white;
 }
 .social-menu ul {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
@@ -17,24 +18,25 @@ h1 {
 }
 .social-menu ul li {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 20px;
 }
-.social-menu ul li .fa {
+.social-menu ul li .fab {
     color: #000000;
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 60px;
+    line-height: 60px;
     transition: .5s;
 }
-.social-menu ul li .fa:hover {
+.social-menu ul li .fab:hover {
     color: #ffffff;
 }
 .social-menu ul li a {
     position: relative;
     display: block;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: white;
+    opacity: 0.8;
     text-align: center;
     transition: 0.5s;
     transform: translate(0,0px);
@@ -44,10 +46,10 @@ h1 {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
 .social-menu ul li:nth-child(1) a:hover {
-    background-color: #DC143C;
+    background-color: #cd486b;
 }
 .social-menu ul li:nth-child(2) a:hover {
-    background-color: grey;
+    background-color: black;
 }
 .social-menu ul li:nth-child(3) a:hover {
     background-color: blue;
